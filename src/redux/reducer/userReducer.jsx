@@ -5,7 +5,7 @@ import axios from "axios";
 export const fetchUser = createAsyncThunk(
     'user/fetchUser',
     async () => {
-        const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+        const response = await axios.get('https://j');
         return response.data;
     }
 );
@@ -13,7 +13,7 @@ export const fetchUserById = createAsyncThunk(
     'user/fetchUserById',
     async (id) => {
         try {
-            const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${id}`);
+            const response = await axios.get(`https://jsonplaceholm/users/${id}`);
             console.log('response data:', response.data);
             return response.data;
         } catch (error) {
