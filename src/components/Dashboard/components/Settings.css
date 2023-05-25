@@ -1,0 +1,61 @@
+.settings-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  .settings-container img {
+    width: 100%;
+    max-width: 400px;
+    margin-right: 2rem;
+  }
+  .settings-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .settings-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .settings-container .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .settings-container label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .settings-container input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .settings-container .save-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #008c8c;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .settings-container .save-button:hover {
+    background-color: #007a7a;
+  }
+  
