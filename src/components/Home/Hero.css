@@ -1,0 +1,109 @@
+/* Define your root variables */
+
+:root {
+  /* Primary Colors */
+  --primary-color: #e64a19;
+  --primary-color-light: #ff8a65;
+  --primary-color-dark: #bf360c;
+
+  /* Secondary Colors */
+  --secondary-color: #1565c0;
+  --secondary-color-light: #5e92f3;
+  --secondary-color-dark: #003c8f;
+
+  /* Text Colors */
+  --text-color: #333;
+  --text-color-light: #fff;
+  --text-color-muted: #888;
+}
+
+/* Define your styles for larger screens */
+
+.hero-container {
+  position: relative;
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 12rem auto;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.hero-quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  max-width: 40%;
+  margin-bottom: 3rem;
+}
+
+.hero-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--text-color-light);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  width: 200px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
+.hero-button:hover {
+  background-color: var(--secondary-color-dark);
+  color: #fff;
+}
+
+.hero-avatar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  max-width: 600px;
+  top: 1px;
+}
+
+/* Define your styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    height: auto;
+    flex-direction: column;
+    margin: 6rem auto;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-quote {
+    font-size: 1.2rem;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .hero-avatar {
+    width: 100%;
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .hero-button {
+    width: 100%;
+    margin: auto;
+  }
+}

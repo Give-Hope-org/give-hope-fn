@@ -1,0 +1,96 @@
+/* Popular Causes Section */
+.popular-causes {
+  background-color: black;
+  padding: 50px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.popular-causes h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.popular-causes p {
+  font-size: 18px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: black;
+}
+
+.cause-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.cause-card {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+.cause-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.cause-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.cause-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.cause-card p {
+  font-size: 16px;
+  margin: 0 20px 20px;
+  line-height: 1.5;
+}
+
+.donate-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1565c0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* For screens smaller than 992px */
+@media (max-width: 991px) {
+  .cause-cards {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cause-card {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+}
