@@ -1,10 +1,13 @@
 /* General styles */
 .about-container {
   width: 100%;
-  margin: 0 auto;
+  margin: 5 auto;
   box-sizing: border-box;
   background-color: white;
   padding: 1rem;
+}
+#about{
+  margin-top: 5rem;
 }
 
 .about-section-header {
@@ -87,10 +90,28 @@
   animation: fadeIn 1s ease forwards;
 }
 
-.section-footer .button {
+.about-section-footer button {
   animation: fadeInUp 1s ease 1s forwards;
-}
+  background-color: #003c8f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
 
+}
+.about-section-footer button:hover {
+  background-color: #002855;
+}
+.about-section-footer button:active {
+  transform: scale(0.95);
+}
+.about-section-footer button:focus {
+  outline: none;
+}
 /* Responsive styles */
 @media screen and (max-width: 767px) {
   .col-1-2 {
@@ -101,5 +122,9 @@
   .section-body img {
     max-width: 80%;
     margin: 0 auto 30px;
+  }
+  .bout-section-footer button{
+    margin: 0 auto;
+    width: auto;
   }
 }

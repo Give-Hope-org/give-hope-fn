@@ -23,9 +23,9 @@
 
 .register-form h2 {
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 40px;
   color: #333;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
@@ -54,7 +54,7 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #1565c0;
+  background: #1565c0 !important;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -62,7 +62,7 @@
 }
 
 .btn-register:hover {
-  background: #003c8f;
+  background: #003c8f !important;
 }
 
 .btn-google {
@@ -71,7 +71,7 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #fff;
+  background: #fff !important;
   color: #555;
   font-weight: bold;
   cursor: pointer;

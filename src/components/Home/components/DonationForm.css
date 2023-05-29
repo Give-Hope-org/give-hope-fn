@@ -133,14 +133,14 @@
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #1565c0;
+  background: #1565c0 !important;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .btn-donation:hover {
-  background-color: var(--secondary-color-dark);
+  background-color: var(--secondary-color-dark) !important;
 }
 /* Animations */
 @keyframes slide-up {

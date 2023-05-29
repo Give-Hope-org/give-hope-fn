@@ -10,7 +10,7 @@ function CauseSection() {
     <section className="popular-causes" id="couses">
       <div className="container">
         <h2>Popular Causes</h2>
-        <p style={{ color: "white" }}>
+        <p>
           Check out some of our most popular causes and join the fight for a
           better world today.
         </p>

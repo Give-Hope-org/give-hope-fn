@@ -3,8 +3,9 @@
   display: flex;
   min-height: 90vh;
   background-color: white;
-  padding: 4rem;
+  padding: 6rem;
   margin-top: 5rem;
+
 }
 
 .contactus-image img {
@@ -25,9 +26,9 @@
 
 .contactus-form h2 {
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 40px;
   color: #333;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .form-group {
@@ -57,7 +58,7 @@ textarea {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background: #1565c0;
+  background-color: #1565c0 !important;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -65,7 +66,7 @@ textarea {
 }
 
 .btn-contactus:hover {
-  background: #003c8f;
+  background-color: #003c8f !important;
 }
 
 .btn-google {
@@ -137,12 +138,12 @@ textarea {
 
 @media screen and (max-width: 768px) {
   .contactus-form {
-    max-width: 300px;
+    width: 100%;
+   
+  }
+  .contactus-container{
+    flex-direction: column;
+    padding: 1rem;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .contactus-form {
-    max-width: 250px;
-  }
-}
