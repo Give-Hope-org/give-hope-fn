@@ -1,5 +1,5 @@
 import React from "react";
-import avator from "../../assets/avator1.png";
+import avator from "../../assets/hero.svg";
 import { Link } from "react-router-dom";
 import "./Hero.css";
 

@@ -21,15 +21,14 @@
 
 .hero-container {
   position: relative;
-  height: 70vh;
-  width: 90%;
+  height: 55vh;
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
   margin: 12rem auto;
 }
-
 .hero-text-container {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -82,11 +81,13 @@
   .hero-container {
     height: auto;
     flex-direction: column;
-    margin: 6rem auto;
+    margin: 5rem auto;
+    width: 90%;
   }
 
   .hero-title {
     font-size: 2rem;
+    text-align: center;
   }
 
   .hero-quote {
