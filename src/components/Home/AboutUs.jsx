@@ -45,7 +45,7 @@ function AboutUs() {
                 </p>
                 <div className="about-section-footer">
                   <Link to="/about-us">
-                    <button className="hero-button">Learn More</button>
+                    <button className="hero-butto">Learn More</button>
                   </Link>
                 </div>
               </div>
