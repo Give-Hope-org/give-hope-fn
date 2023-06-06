@@ -83,7 +83,7 @@ const Index = () => {
                     <a href="#">About us</a>
                   </li>
                   <li>
-                    <a href="#">Couses</a>
+                    <a href="#">Causes</a>
                   </li>
                   <li>
                     <a href="#">Contact us</a>

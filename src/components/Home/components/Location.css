@@ -1,0 +1,47 @@
+.lacationContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 0 30px;
+    position: relative;
+    z-index: 1;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.lacationContainer h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 30px;
+}
+.lacationContainer p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px;
+    padding: 0 10rem
+}
+ /* make it responsive for all devices */
+@media screen and (max-width: 768px){
+    .lacationContainer{
+        width: 100%;
+        margin-top: -60px;
+    }
+    .lacationContainer h1{
+        font-size: 30px;
+       
+    }
+    .lacationContainer p{
+        font-size: 18px;
+        padding: 0 1rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lacationContainer img{
+        width:  100%;
+        margin-top: 12px;
+
+    }
+}
