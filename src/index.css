@@ -10,3 +10,40 @@ body, html {
   font-weight: 400;
   background-color: F8F8F8;
 }
+
+@layer components {
+  .medical-profile{
+    @apply p-4 w-[100%] max-w-[800px] bg-white rounded-[5px] mt-28 mb-auto shadow-[0_5px_20px_rgba(0,0,0,0.3)]
+  }
+  .medical-profile-header{
+    @apply text-center mb-8
+  }
+
+  .medical-profile-info{
+    @apply p-4 text-[18px]
+  }
+
+  .medical-donate{
+    @apply inline m-[30px] mt-[80px] text-white font-bold 
+  }
+
+  .category-info{
+    @apply text-[18px]
+  }
+
+  .category-heading{
+    @apply flex justify-center mt-[100px] mb-[40px] font-bold text-[35px]
+  }
+
+  .category-info img{
+    @apply  rounded-[10px] border-[10px] 
+  }
+
+  .category-image{
+    @apply flex justify-center mb-6 mr-9
+  }
+
+  .category-grid{
+    @apply grid grid-cols-2
+  }
+}
