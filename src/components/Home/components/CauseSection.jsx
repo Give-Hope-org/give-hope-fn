@@ -2,7 +2,7 @@ import React from "react";
 import "./CouseSection.css";
 import Cause1 from "../../../assets/couse2.jpg";
 import education from "../../../assets/education.jpg";
-import human from "../../../assets/human.jpg";
+import medical from "../../../assets/medical.jpg";
 import { Link } from "react-router-dom";
 
 function CauseSection() {
@@ -10,7 +10,7 @@ function CauseSection() {
     <section className="popular-causes" id="couses">
       <div className="container">
         <h2>Popular Causes</h2>
-        <p style={{ color: "white" }}>
+        <p>
           Check out some of our most popular causes and join the fight for a
           better world today.
         </p>
@@ -40,13 +40,15 @@ function CauseSection() {
             </Link>
           </div>
           <div className="cause-card">
-            <img src={human} alt="Cause image" />
-            <h3>Human Rights</h3>
+            <Link to="/medical-profile">
+              <img src={medical} alt="Cause image" />
+            </Link>
+            <h3>Medical Support</h3>
             <p>
-              Stand up for justice and equality by supporting organizations that
-              defend human rights and promote diversity and inclusion.
+              "Health is Wealth". Support medical organizations to help save a life today.
             </p>
-            <Link to="donation-form" className="donate-button">
+            <Link to="medical-
+            donation-form" className="donate-button">
               Donate Now
             </Link>
           </div>
