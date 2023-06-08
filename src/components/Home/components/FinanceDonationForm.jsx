@@ -26,26 +26,28 @@ function FinanceDonationForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
-        <div className="form-data">
-          <label for="Gender">Gender</label>
-          <select type="Gender" id="Gender" name="Gender" required >
-            <option name="Gender" value="">-- Select a gender --</option>
-            <option name="Gender">Male</option>
-            <option name="Gender">Female</option>
-          </select>
-        </div>
-        <div className="form-data">
-          <label for="Donate to">Donate to</label>
-          <select type="donate to" id="donate to" name="donate to" required >
-            <option name="donate to" value="">-- Select who to donate to --</option>
-            <option name="donate to">Individual</option>
-            <option name="donate to">Medical Organisation</option>
-          </select>
+        <div className="select-grid">
+          <div className="form-data">
+            <label for="Gender">Gender</label>
+            <select type="Gender" id="Gender" name="Gender" required >
+              <option name="Gender" value="">-- Select a gender --</option>
+              <option name="Gender">Male</option>
+              <option name="Gender">Female</option>
+            </select>
+          </div>
+          <div className="form-data">
+            <label for="Donate to">Donate to</label>
+            <select type="donate to" id="donate to" name="donate to" required >
+              <option name="donate to" value="">-- Select donate to --</option>
+              <option name="donate to">Individual</option>
+              <option name="donate to">Medical Organisation</option>
+            </select>
+          </div>
         </div>
         <div className="form-data">
           <label for="donation type">Donation type</label>
           <select type="donation type" id="donation type" name="donation type" required >
-            <option name="donation type" value="">-- Select an Donation type --</option>
+            <option name="donation type" value="">-- Select a Donation type --</option>
             <option name="donation type">Surgery</option>
             <option name="donation type">Organ</option>
             <option name="donation type">Blood</option>

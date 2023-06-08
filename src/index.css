@@ -23,27 +23,11 @@ body, html {
     @apply p-4 text-[18px]
   }
 
-  .medical-donate{
-    @apply inline m-[30px] mt-[80px] text-white font-bold 
-  }
-
   .category-info{
     @apply text-[18px]
   }
-
-  .category-heading{
-    @apply flex justify-center mt-[100px] mb-[40px] font-bold text-[35px]
-  }
-
+  
   .category-info img{
     @apply  rounded-[10px] border-[10px] 
-  }
-
-  .category-image{
-    @apply flex justify-center mb-6 mr-9
-  }
-
-  .category-grid{
-    @apply grid grid-cols-2
   }
 }

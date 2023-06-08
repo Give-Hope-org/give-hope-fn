@@ -25,24 +25,26 @@ function EquipmentRequestForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
-        <div className="form-data">
-          <label for="Gender">Gender</label>
-          <select type="Gender" id="Gender" name="Gender" required >
-            <option name="Gender" value="">-- Select a gender --</option>
-            <option name="Gender">Male</option>
-            <option name="Gender">Female</option>
-          </select>
-        </div>
-        <div className="form-data">
-          <label for="Equipment type">Equipment type</label>
-          <select type="Equipment type" id="Equipment type" name="Equipment type" required >
-            <option name="Equipment type" value="">-- Select an Equipment type --</option>
-            <option name="Equipment type">Sphygmomanometer</option>
-            <option name="Equipment type">Glucometer</option>
-            <option name="Equipment type">CT Scanner</option>
-            <option name="Equipment type">Medical gas</option>
-            <option name="Equipment type">Others(please specify)</option>
-          </select>
+        <div className="select-grid">
+          <div className="form-data">
+            <label for="Gender">Gender</label>
+            <select type="Gender" id="Gender" name="Gender" required >
+              <option name="Gender" value="">-- Select a gender --</option>
+              <option name="Gender">Male</option>
+              <option name="Gender">Female</option>
+            </select>
+          </div>
+          <div className="form-data">
+            <label for="Equipment type">Equipment type</label>
+            <select type="Equipment type" id="Equipment type" name="Equipment type" required >
+              <option name="Equipment type" value="">-- Select type --</option>
+              <option name="Equipment type">Sphygmomanometer</option>
+              <option name="Equipment type">Glucometer</option>
+              <option name="Equipment type">CT Scanner</option>
+              <option name="Equipment type">Medical gas</option>
+              <option name="Equipment type">Others(please specify)</option>
+            </select>
+          </div>
         </div>
         <div className="form-data">
           <label for="text">Reason:</label>
