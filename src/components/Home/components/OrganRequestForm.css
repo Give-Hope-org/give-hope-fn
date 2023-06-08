@@ -1,0 +1,56 @@
+:root {
+  --text-color: #333;
+}
+
+.organ-request-form {
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  animation: slide-up 1s ease;
+}
+
+.organ-request-form label {
+  display: block;
+  font-size: 18px;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.organ-request-form input[type="text"],
+.organ-request-form input[type="email"] {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.organ-request-form input[type="text"]:focus,
+.organ-request-form input[type="email"]:focus {
+  outline: none;
+  border: 2px solid #6e6c6c;
+}
+
+.organ-request-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7.406 10.781L12 15.375l4.594-4.594L18 12.188l-6 6-6-6z' fill='%23333'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.organ-request-form select:focus {
+  outline: none;
+  border: 2px solid #6e6c6c;
+}

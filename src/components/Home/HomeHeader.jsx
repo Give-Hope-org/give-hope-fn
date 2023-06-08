@@ -28,7 +28,7 @@ function HomeHeader() {
           <a href="#charities">Charities</a>
         </li>
         <li>
-          <a href="#couses">Causes</a>
+          <a href="#causes">Causes</a>
         </li>
         <li>
           <Link to="/about-us">About Us</Link>
