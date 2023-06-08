@@ -18,7 +18,6 @@ function MedicalProfile () {
                 Mission: To help someone smile again.
               </p>
         </div>
-
         <div className="medical-profile-info">
           <p>This section consists of four categories you can donate to or make a donation request. They include:</p>
           <ul className="list-disc ml-[30px] mt-[10px]">

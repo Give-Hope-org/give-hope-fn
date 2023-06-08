@@ -26,7 +26,6 @@ function FinanceRequestForm() {
           <input type="email" id="email" name="email" required />
         </div>
         <div className="select-grid">
-
           <div className="form-data">
             <label for="Gender">Gender</label>
             <select type="Gender" id="Gender" name="Gender" required >
