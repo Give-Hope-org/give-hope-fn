@@ -1,17 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Home.css";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 function HomeHeader() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  const handleMenuClick = () => {
-    setShowMenu(!showMenu);
+  const [showMenu, setShowMenu] = useState(true);
+  const [showRegisterPopup, setShowRegisterPopup] = useState(false);
+  const handleRegisterClick = () => {
+    setShowRegisterPopup(true);
   };
+
+  const closeModal = () => {
+    setShowRegisterPopup(false);
+  };
+
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+    
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = prevScrollPos > currentScrollPos;
+      setShowMenu(visible);
+      prevScrollPos = currentScrollPos;
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="nav">
+    <nav className={`nav ${showMenu ? "" : "hidden"}`}>
       <div className="nav__logo">
         <Link to="/">
           <img src={logo} alt="GiveHope Logo" />
@@ -20,7 +41,7 @@ function HomeHeader() {
       </div>
 
       {/* Navigation links */}
-      <ul className={`nav__menu ${showMenu ? "show" : ""}`}>
+      <ul className="nav__menu">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -37,15 +58,55 @@ function HomeHeader() {
           <Link to="/contact-us">Contact Us</Link>
         </li>
       </ul>
-      <div>
+      <div className="flex gap-4">
+        <button
+          to="/register"
+          className="nav-button"
+          onClick={handleRegisterClick}
+        >
+          Register
+        </button>
         <Link to="/login" className="nav-button">
           Login
         </Link>
       </div>
       {/* Hamburger menu */}
-      <div className="nav__menu-icon" onClick={handleMenuClick}>
-        <i className={showMenu ? "fas fa-times" : "fas fa-bars"}></i>
+      <div className="nav__menu-icon">
+        <i className="fas fa-bars"></i>
       </div>
+
+      {showRegisterPopup && (
+        <div className="fixed inset-0 flex items-center justify-center z-50">
+        <div className="register-popup bg-white rounded-md p-6 shadow-lg">
+          <h2 className="text-2xl font-semibold mb-4">Register as:</h2>
+          <div className="flex gap-4">
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded"
+              onClick={() => {
+                window.location.href = "/register-as-org";
+              }}
+            >
+              Organization
+            </button>
+            <button
+              className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded"
+              onClick={() => {
+                window.location.href = "/register-as-individual";
+              }}
+            >
+              Individual
+            </button>
+          </div>
+          <button
+            className="text-gray-600 hover:text-gray-800 font-semibold mt-4"
+            onClick={closeModal}
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+      
+      )}
     </nav>
   );
 }
