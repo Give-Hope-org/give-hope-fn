@@ -6,7 +6,7 @@ import './OrganRequestForm.css';
 function OrganRequestForm() {
 
   return (
-    <div className="organ-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
+    <div className="organ-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[2rem]">
       <div className="avatar flex align-center">
         <img src={spreadlove} alt="Avatar Image" className="w-[100%]"/>
       </div>
@@ -26,6 +26,7 @@ function OrganRequestForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
+        <div className="grid grid-cols-2 gap-3">
         <div className="form-data">
           <label for="Gender">Gender</label>
           <select type="Gender" id="Gender" name="Gender" required >
@@ -36,7 +37,7 @@ function OrganRequestForm() {
         </div>
         <div className="form-data">
           <label for="Age">Age</label>
-          <select type="Age" id="Age" name="Age" required >
+          <select type="Age" id="Age" name="Age" required className="appearance-none bg-transparent pr-8" >
             <option name="Age" value="">-- Select Age --</option>
             <option name="Age">0-20</option>
             <option name="Age">21-29</option>
@@ -45,6 +46,8 @@ function OrganRequestForm() {
             <option name="Age">80 and above</option>
           </select>
         </div>
+        </div>
+        <div className="grid grid-cols-2 gap-3">
         <div className="form-data">
           <label for="organ-type">Organ type</label>
           <select type="organ-type" id="organ-type" name="organ-type" required >
@@ -70,9 +73,12 @@ function OrganRequestForm() {
             <option name="Blood group">O-</option>
           </select>
         </div>
+        </div>
         <div className="form-data">
           <label for="text">Reason:</label>
-          <input type="text" id="text" name="text" required />
+          <textarea type="text" id="text" name="text" required  rows="4" cols="50" className="border border-gray-300 rounded p-2 focus:outline-none focus:ring focus:border-blue-500" >
+            The Reason why you are Requesting a donation.
+          </textarea>
         </div>
         <button type="submit" className="btn-donation mt-[20px]">
           Request
