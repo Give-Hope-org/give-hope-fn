@@ -81,8 +81,10 @@ function CharitySection() {
 
   return (
     <div className="charity-container" id="charities">
-      <h2>Featured Charities</h2>
-      <p>Explore our featured charities below and find a cause to support today!</p>
+      <h2>Top priority request.</h2>
+      <p>This is an urgent and critical request that requires immediate attention and action. 
+        It is of utmost importance and must be addressed promptly to meet the established deadlines 
+        or resolve a pressing issue. </p>
       <Slider {...settings} className="bg-gray-100 w-11/12 mx-auto">
         {charities.map((charity, index) => (
           <div className="charity h-full" key={index}>
