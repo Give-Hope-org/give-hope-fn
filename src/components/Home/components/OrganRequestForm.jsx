@@ -6,7 +6,7 @@ import './OrganRequestForm.css';
 function OrganRequestForm() {
 
   return (
-    <div className="organ-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
+    <div className="organ-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[2rem]">
       <div className="avatar flex align-center">
         <img src={spreadlove} alt="Avatar Image" className="w-[100%]"/>
       </div>
@@ -53,9 +53,12 @@ function OrganRequestForm() {
             </select>
           </div>
         </div>
+        </div>
         <div className="form-data">
           <label for="text">Reason:</label>
-          <input type="text" id="text" name="text" required />
+          <textarea type="text" id="text" name="text" required  rows="4" cols="50" className="border border-gray-300 rounded p-2 focus:outline-none focus:ring focus:border-blue-500" >
+            The Reason why you are Requesting a donation.
+          </textarea>
         </div>
         <button type="submit" className="btn-donation mt-[20px]">
           Request

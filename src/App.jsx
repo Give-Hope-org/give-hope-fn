@@ -23,6 +23,7 @@ import ConfirmDonationPage from "./pages/ConfirmDonationPage";
 import ChartyProfilePage from "./pages/ChartyProfilePage";
 import MedicalProfile from "./pages/MedicalProfilePage";
 import Dashboard from "./components/Dashboard/Dashboard";
+import RegisterAsOrg from'./pages/RegisterAsOrg'
 function App() {
   return (
     <div> 
@@ -44,7 +45,8 @@ function App() {
           <Route path="equipment-description" element={<EquipmentDonationProfilePage />} />
           <Route path="financial-description" element={<FinanceDonationProfilePage />} />
           <Route path="login" element={<LoginPage />} />
-          <Route path="register" element={<RegisterPage />} />
+          <Route path="register-as-org" element={<RegisterAsOrg />} />
+          <Route path="register-as-individual" element={<RegisterPage />} />
           <Route path="forgot-password" element={<ForgotPasswordPage />} />
           <Route path="contact-us" element={<ContactUsPage />} />
           <Route path="about-us" element={<AboutUsPage />} />
