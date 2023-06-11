@@ -6,7 +6,7 @@ import './BloodDonationForm.css';
 function BloodDonationForm() {
 
   return (
-    <div className="blood-donation-container">
+    <div className="blood-donation-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
       <div className="avatar w-[100%]">
         <img src={love} alt="Avatar"/>
       </div>
@@ -26,27 +26,6 @@ function BloodDonationForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
-        <div className="select-grid">
-          <div className="form-data">
-            <label for="Gender">Gender</label>
-            <select type="Gender" id="Gender" name="Gender" required >
-              <option name="Gender" value="">-- Select a gender --</option>
-              <option name="Gender">Male</option>
-              <option name="Gender">Female</option>
-            </select>
-          </div>
-          <div className="form-data">
-            <label for="Age">Age</label>
-            <select type="Age" id="Age" name="Age" required >
-              <option name="Age" value="">-- Select Age --</option>
-              <option name="Age">0-20</option>
-              <option name="Age">21-29</option>
-              <option name="Age">30-49</option>
-              <option name="Age">50-79</option>
-              <option name="Age">80 and above</option>
-            </select>
-          </div>
-        </div>
         <div className="form-data">
           <label for="Blood group">Blood group</label>
           <select type="Blood-group" id="Blood group" name="Blood group" required >
@@ -61,7 +40,7 @@ function BloodDonationForm() {
             <option name="Blood group">O-</option>
           </select>
         </div>
-        <button type="submit" className="btn-donation mt-[20px]">
+        <button type="submit" className="btn-donation mt-[80px]">
           Donate
         </button>
       </form>

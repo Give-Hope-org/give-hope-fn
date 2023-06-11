@@ -1,46 +1,91 @@
-
 .category-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 5px;
+  padding: 20px;
+  font-size: 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  max-height: 500px;
+  max-width: 300px;
+  transition: all 0.3s ease-in-out;
 }
+
+.category-grid:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
 .category-grid a {
   text-decoration: underline;
 }
 
 .category-grid p {
-  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.category-info {
+  margin: 30px 5px 0 0;
+}
+
+.category-info img {
+  border-radius: 20px;
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
 }
 
 .category-heading {
-  display: flex;
-  justify-content: center;
-  margin: 100px 0 40px 0;
-  font-size: 35px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-size: 22px;
   font-weight: bold;
 }
 
-.medical-donate {
-  width: 100%;
-  color: #ffff;
-  font-weight: bold;
+.request-image img {
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.request-info {
+  margin: 5px;
+  padding: 20px;
+  font-size: 13px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  max-width: 350px;
+  transition: all 0.3s ease-in-out;
+}
+
+.request-info:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.request-info a {
+  text-decoration: underline;
+}
+
+.request-main {
+  margin: 200px 0 0 18px;
+}
+
+.location {
   display: flex;
-  justify-content: space-between;
-  margin-top: 60px;
 }
 
-.medical-donate button {
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
+.location h2 {
+  display: flex;
+  align-items: center;
 }
 
-@media screen and (max-width: 786px) {
-  .category-grid {
-    grid-template-columns: none;
+@media screen and (max-width: 801px) {
+  .request-info {
+    max-width: 300px;
   }
 
-  .category-grid p {
-    margin-top: 20px;
+  .request-image img {
+    max-width: 250px;
   }
 
   .medical-donate button {
@@ -69,4 +114,4 @@
   .medical-donate button {
     width: 100px;
   }
-}
+} 

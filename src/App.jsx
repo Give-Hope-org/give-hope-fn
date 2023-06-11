@@ -10,6 +10,10 @@ import EquipmentDonationFormPage from "./pages/EquipmentDonationFormPage";
 import EquipmentRequestFormPage from "./pages/EquipmentRequestFormPage";
 import FinanceDonationFormPage from "./pages/FinanceDonationFormPage";
 import FinanceRequestFormPage from "./pages/FinanceRequestFormPage";
+import OrganDonationProfilePage from "./pages/OrganDonationProfilePage";
+import BloodDonationProfilePage from "./pages/BloodDonationProfilePage";
+import EquipmentDonationProfilePage from "./pages/EquipmentDonationProfilePage";
+import FinanceDonationProfilePage from "./pages/FinanceDonationProfilePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
@@ -35,6 +39,10 @@ function App() {
           <Route path="equipment-request-form" element={<EquipmentRequestFormPage />} />
           <Route path="finance-donation-form" element={<FinanceDonationFormPage />} />
           <Route path="finance-request-form" element={<FinanceRequestFormPage />} />
+          <Route path="organ-description" element={<OrganDonationProfilePage />} />
+          <Route path="blood-description" element={<BloodDonationProfilePage />} />
+          <Route path="equipment-description" element={<EquipmentDonationProfilePage />} />
+          <Route path="financial-description" element={<FinanceDonationProfilePage />} />
           <Route path="login" element={<LoginPage />} />
           <Route path="register" element={<RegisterPage />} />
           <Route path="forgot-password" element={<ForgotPasswordPage />} />

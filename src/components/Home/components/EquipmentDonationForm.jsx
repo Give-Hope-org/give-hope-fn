@@ -26,15 +26,6 @@ function EquipmentDonationForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
-        <div className="select-grid">
-          <div className="form-data">
-            <label for="Gender">Gender</label>
-            <select type="Gender" id="Gender" name="Gender" required >
-              <option name="Gender" value="">-- Select a gender --</option>
-              <option name="Gender">Male</option>
-              <option name="Gender">Female</option>
-            </select>
-          </div>
           <div className="form-data">
             <label for="Donate to">Donate to</label>
             <select type="donate to" id="donate to" name="donate to" required >
@@ -43,7 +34,6 @@ function EquipmentDonationForm() {
               <option name="donate to">Medical Organisation</option>
             </select>
           </div>
-        </div>
         <div className="form-data">
           <label for="equipment type">Equipment type</label>
           <select type="equipment type" id="equipment type" name="equipment type" required >

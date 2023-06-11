@@ -2,14 +2,6 @@
   --text-color: #333;
 }
 
-.blood-donation-container {
-  display: flex;
-  min-height: 90vh;
-  background-color: white;
-  padding: 4rem;
-  margin-top: 5rem;
-}
-
 .avatar img {
   width: 100%;
   height: auto;

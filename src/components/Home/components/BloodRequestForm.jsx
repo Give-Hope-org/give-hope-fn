@@ -25,28 +25,6 @@ function BloodRequestForm() {
           <label for="email">Email</label>
           <input type="email" id="email" name="email" required />
         </div>
-        <div className="select-grid">
-
-          <div className="form-data">
-            <label for="Gender">Gender</label>
-            <select type="Gender" id="Gender" name="Gender" required >
-              <option name="Gender" value="">-- Select a gender --</option>
-              <option name="Gender">Male</option>
-              <option name="Gender">Female</option>
-            </select>
-          </div>
-          <div className="form-data">
-            <label for="Age">Age</label>
-            <select type="Age" id="Age" name="Age" required >
-              <option name="Age" value="">-- Select Age --</option>
-              <option name="Age">0-20</option>
-              <option name="Age">21-29</option>
-              <option name="Age">30-49</option>
-              <option name="Age">50-79</option>
-              <option name="Age">80 and above</option>
-            </select>
-          </div>
-        </div>
         <div className="form-data">
           <label for="Blood group">Blood group</label>
           <select type="Blood-group" id="Blood group" name="Blood group" required >
