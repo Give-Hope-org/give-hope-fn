@@ -53,7 +53,6 @@ function OrganRequestForm() {
             </select>
           </div>
         </div>
-        </div>
         <div className="form-data">
           <label for="text">Reason:</label>
           <textarea type="text" id="text" name="text" required  rows="4" cols="50" className="border border-gray-300 rounded p-2 focus:outline-none focus:ring focus:border-blue-500" >
