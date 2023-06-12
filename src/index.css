@@ -13,37 +13,41 @@ body, html {
 
 @layer components {
   .medical-profile{
-    @apply p-4 w-[100%] max-w-[800px] bg-white rounded-[5px] mt-28 mb-auto shadow-[0_5px_20px_rgba(0,0,0,0.3)]
+    @apply w-[100%] pt-20 mt-5 mb-auto
   }
   .medical-profile-header{
-    @apply text-center mb-8
+    @apply text-center mb-8 w-[100%]
   }
 
   .medical-profile-info{
-    @apply p-4 text-[18px]
-  }
-
-  .medical-donate{
-    @apply inline m-[30px] mt-[80px] text-white font-bold 
+    @apply text-[20px]
   }
 
   .category-info{
-    @apply text-[18px]
+    @apply text-[18px] 
+  }
+  
+  .category-info-main{
+    @apply  flex flex-wrap justify-center
   }
 
-  .category-heading{
-    @apply flex justify-center mt-[100px] mb-[40px] font-bold text-[35px]
+  .category-grid {
+    @apply shadow-[0_5px_20px_rgba(0,0,0,0.3)]
   }
 
-  .category-info img{
-    @apply  rounded-[10px] border-[10px] 
+  .category-image {
+    @apply flex justify-center
   }
 
-  .category-image{
-    @apply flex justify-center mb-6 mr-9
+  .request-info {
+    @apply shadow-[0_5px_20px_rgba(0,0,0,0.3)]
   }
 
-  .category-grid{
-    @apply grid grid-cols-2
+  .request-list {
+    @apply  flex flex-wrap justify-center gap-y-4 gap-x-4
+  }
+
+  .donation-requests {
+    @apply  flex flex-wrap justify-center gap-y-4 gap-x-4 mt-[5rem] mb-[3rem]
   }
 }
