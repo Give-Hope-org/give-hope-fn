@@ -1,3 +1,117 @@
+.category-grid {
+  margin: 5px;
+  padding: 20px;
+  font-size: 15px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  max-height: 500px;
+  max-width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.category-grid:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
 .category-grid a {
   text-decoration: underline;
 }
+
+.category-grid p {
+  margin-top: 10px;
+}
+
+.category-info {
+  margin: 30px 5px 0 0;
+}
+
+.category-info img {
+  border-radius: 20px;
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.category-heading {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.request-image img {
+  border-radius: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.request-info {
+  margin: 5px;
+  padding: 20px;
+  font-size: 13px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  max-width: 350px;
+  transition: all 0.3s ease-in-out;
+}
+
+.request-info:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+.request-info a {
+  text-decoration: underline;
+}
+
+.request-main {
+  margin: 200px 0 0 18px;
+}
+
+.location {
+  display: flex;
+}
+
+.location h2 {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 801px) {
+  .request-info {
+    max-width: 300px;
+  }
+
+  .request-image img {
+    max-width: 250px;
+  }
+
+  .medical-donate button {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .medical-donate button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .medical-donate button {
+    width: 150px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .category-heading {
+    font-size: 25px;
+  }
+  
+  .medical-donate button {
+    width: 100px;
+  }
+} 

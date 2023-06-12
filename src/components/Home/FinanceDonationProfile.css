@@ -1,0 +1,34 @@
+.finance-donation-header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.medical-donate {
+  width: 100%;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.medical-donate button {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .finance-donation-header img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .finance-donation-header img {
+    max-width: 250px;
+  }
+}
