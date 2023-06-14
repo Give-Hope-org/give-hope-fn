@@ -24,11 +24,14 @@ import ChartyProfilePage from "./pages/ChartyProfilePage";
 import MedicalProfile from "./pages/MedicalProfilePage";
 import Dashboard from "./components/Dashboard/Dashboard";
 import RegisterAsOrg from'./pages/RegisterAsOrg'
+import ScrollToTop from './components/Dashboard/components/ScrollToTop'
 function App() {
   return (
     <div> 
       <BrowserRouter>
+      <ScrollToTop />
       <Routes>
+      
           <Route path="/" element={<Home />} />
           <Route path="donation-form" element={<DonationFormPage/>} />
           <Route path="medical-donation-form" element={<MedicalDonationFormPage/>} />
