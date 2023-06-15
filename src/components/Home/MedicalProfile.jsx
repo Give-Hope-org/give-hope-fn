@@ -17,7 +17,7 @@ function MedicalProfile () {
     <div className="medical-profile-container bg-white p-4 w-[100%] m-auto flex justify-center">
       <div className="medical-profile">
         <div className="medical-profile-header">
-          <img src={medicalProfile} alt="medical-description" />
+          <img src={medicalProfile} alt="medical-description" className="h-[60vh] w-[100%]" />
           <h2 className="mt-[15px] mb-[15px] text-[40px] font-bold">Medical Support</h2>
               <p className="text-[23px]">
                 Mission: To help someone smile again.
@@ -25,6 +25,7 @@ function MedicalProfile () {
         </div>
         <div className="medical-profile-info">
           <div className="p-8">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, animi expedita. Repellendus, esse ipsam, dicta deleniti temporibus ad animi, exercitationem quasi atque pariatur aliquam id provident repellat quae. Rerum, provident! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quasi est porro quia veniam eos nemo ad sunt, et molestiae perferendis modi cum obcaecati aut impedit quidem. Ipsum, rerum est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore dolorem officiis incidunt ipsa sit facere, accusamus dicta magnam perferendis, tenetur sint nisi pariatur itaque quo quas omnis iure quasi!.</p>
             <p>This section consists of four categories you can donate to or make a donation request. They include:</p>
             <ul className="list-disc ml-[30px] mt-[10px]">
               <li>Organ Donation</li>
@@ -90,7 +91,7 @@ function MedicalProfile () {
             <div className="flex justify-center mb-5 font-bold text-[35px]">
               <p>Top Medical Requests</p>
             </div>
-            <div className="request-list">
+            <div className="request-list grid grid-cols-3 gap-4">
               <div className="request-info">
                 <div className="request-image mb-[10px]">
                   <img src={Request} alt="requests"></img>
@@ -103,7 +104,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Donate a Kidney to Mary</p>
                 <p className="text-[15px] mt-2">Mary is a 7year old girl from... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/organ-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
               <div className="request-info">
                 <div className="request-image mb-[10px]">
@@ -117,7 +120,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Martha needs blood</p>
                 <p className="text-[15px] mt-2">Help martha by donating a pint of ... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/blood-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
               <div className="request-info">
                 <div className="request-image mb-[10px]">
@@ -131,7 +136,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Help baby Joshua breath</p>
                 <p className="text-[15px] mt-2">Joshua was born with inability... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/equipment-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
               <div className="request-info">
                 <div className="request-image mb-[10px]">
@@ -145,7 +152,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Felix needs blood urgently</p>
                 <p className="text-[15px] mt-2">Help Felix a young... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/finance-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
               <div className="request-info">
                 <div className="request-image mb-[10px]">
@@ -159,7 +168,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Donate a Kidney to Mary</p>
                 <p className="text-[15px] mt-2">Mary is a 7year old girl from... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/organ-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
               <div className="request-info">
                 <div className="request-image mb-[10px]">
@@ -173,7 +184,9 @@ function MedicalProfile () {
                 </div>
                 <p className="text-[22px] font-bold">Donate a Kidney to Mary</p>
                 <p className="text-[15px] mt-2">Mary is a 7year old girl from... <a href="#">See more</a></p>
-                <button className="btn text-sm w-[100%]">Donate</button>
+                <Link to ="/organ-donation-form">
+                  <button className="btn text-sm w-[100%]">Donate</button>
+                </Link>
               </div>
             </div>
           </div>
