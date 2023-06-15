@@ -30,7 +30,7 @@ function BloodDonationProfile () {
           <button className="bg-blue-600">Request for Donation</button>
         </Link>
       </div>
-      <div className="donation-requests">
+      <div className="donation-requests grid grid-cols-3 gap-4 mt-5">
         <div className="request-info">
           <div className="request-image mb-[10px]">
             <img src={Request} alt="requests"></img>

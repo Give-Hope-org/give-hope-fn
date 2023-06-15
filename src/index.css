@@ -42,12 +42,4 @@ body, html {
   .request-info {
     @apply shadow-[0_5px_20px_rgba(0,0,0,0.3)]
   }
-
-  .request-list {
-    @apply  flex flex-wrap justify-center gap-y-4 gap-x-4
-  }
-
-  .donation-requests {
-    @apply  flex flex-wrap justify-center gap-y-4 gap-x-4 mt-[5rem] mb-[3rem]
-  }
 }
