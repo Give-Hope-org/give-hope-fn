@@ -9,10 +9,6 @@ GiveHope is an online donation platform that allows users to donate to various c
 
 ## Usage
 
-- Browse the product catalog and add items to your shopping cart.
-- Sell and market your products.
-- Proceed to checkout and enter your shipping and payment details.
-- Confirm your order and view your order history.
 
 ## Installation & Setup
 
