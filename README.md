@@ -8,7 +8,7 @@ GiveHope is an online donation platform that allows users to donate to various c
 
 
 ## Usage
-
+Get started by registering as an individual or organization. Give hope offers various donation causes like Climate, Education and Medical support, donation to charity organizations is also available. You can either donate to a cause or charity organization or request for donation. 
 
 ## Installation & Setup
 
