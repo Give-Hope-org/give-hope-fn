@@ -44,3 +44,8 @@ Vite
 React
 Tailwind CSS
 Plain Css
+## DEMO LINK:
+https://give-hope-fn.vercel.app/
+### Screenshots
+
+![Landing page](https://github.com/Give-Hope-org/give-hope-fn/blob/main/src/assets/heroSection.png)
