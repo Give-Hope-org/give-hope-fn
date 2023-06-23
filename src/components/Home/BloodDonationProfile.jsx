@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Blood from '../../assets/BloodDonation.jpg';
+import Blood from '../../assets/bloodDonation.jpg';
 import Location from '../../assets/location-logo.png';
 import Request from '../../assets/requests.jpg';
 import Medical from '../../assets/medical.jpg';
