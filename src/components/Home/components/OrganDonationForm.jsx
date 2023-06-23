@@ -6,7 +6,7 @@ import './OrganDonationForm.css';
 function OrganDonationForm() {
 
   return (
-    <div className="organ-donation-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
+    <div className="organ-donation-container">
       <div className="avatar flex align-center">
         <img src={love} alt="Avatar Image" className="w-[100%]"/>
       </div>

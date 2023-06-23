@@ -14,8 +14,9 @@ A web application that allows people who want to help others financially do so e
 - Responsive: The app is responsive and works on all screen sizes.
 
 
-
 ## Usage
+
+Get started by registering as an individual or organization. Give hope offers various donation causes like Climate, Education and Medical support, donation to charity organizations is also available. Under each category is a list of donation requests and description. You can either donate to a cause or charity organization or request for donation. 
 The application has been deployed at [https://give-hope-app.netlify.app
 ](https://give-hope-app.netlify.app
 ). You can use the following credentials to log in and test the app:
@@ -30,7 +31,6 @@ hosting platform) using the following credentials:
 email: <EMAIL>
 password: password
 ```
-
 
 ## Installation & Setup
 

@@ -1,6 +1,15 @@
 :root {
   --text-color: #333;
 }
+
+.organ-request-container {
+  display: flex;
+  min-height: 90vh;
+  background-color: white;
+  padding: 4rem;
+  margin-top: 5rem;
+}
+
 .organ-request-form {
   padding: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);

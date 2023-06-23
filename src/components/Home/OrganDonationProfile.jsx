@@ -10,7 +10,7 @@ import Finance from '../../assets/finance-request.jpg';
 
 function OrganDonationProfile () {
   return (
-    <div className="organ-donation-container p-4">
+    <div className="organ-profile-container p-4">
       <div className="organ-donation-header">
         <h1>Organ Donation</h1>
         <div className="flex justify-center">
@@ -24,13 +24,14 @@ function OrganDonationProfile () {
       </div>
       <div className="medical-donate">
         <Link to ="/organ-donation-form">
-          <button className="bg-blue-600">Donate</button>
+          <button className="btn">Donate</button>
         </Link>
         <Link to ="/organ-request-form">
-          <button className="bg-blue-600">Request for Donation</button>
+          <button className="btn">Request for Donation</button>
         </Link>
       </div>
-      <div className="donation-requests grid grid-cols-3 gap-4 mt-5">
+      <p className="text-[35px] font-bold text-center mt-[9rem] mb-[2rem]">Organ Donation Requests</p>
+      <div className="donation-requests">
         <div className="request-info">
           <div className="request-image mb-[10px]">
             <img src={Request} alt="requests"></img>

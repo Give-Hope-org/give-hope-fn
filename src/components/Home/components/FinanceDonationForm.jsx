@@ -6,9 +6,9 @@ import './FinanceDonationForm.css';
 function FinanceDonationForm() {
 
   return (
-    <div className="finance-donation-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
-      <div className="avatar flex align-center">
-        <img src={love} alt="Avatar Image" className="w-[100%]"/>
+    <div className="finance-donation-container">
+      <div className="avatar">
+        <img src={love} alt="Avatar Image"/>
       </div>
       <form className="finance-donation-form w-[90%] max-w-[500px] m-auto bg-white rounded-[10px]">
         <div className="medical-form-heading text-center text-[28px] mb-[20px]">
