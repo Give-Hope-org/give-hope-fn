@@ -12,16 +12,29 @@ GiveHope is an online donation platform that allows users to donate to various c
 
 ## Installation & Setup
 
-Make sure you have Node.js and npm installed on your computer.
+To get started with the project, follow these steps:
 
-1. Clone this repository:
-   `https://github.com/Give-Hope-org/give-hope-fn.git`
+1. Make sure you have Node.js and npm installed on your computer.
 
-2. Navigate to the project directory: `cd give-hope-fn`
-3. Install the dependencies using npm: `npm install`
-4. Start the development server: `npm run dev`.
-   This command will start the development server and make your application available for testing and development at http://localhost:5173.
-5. Open your browser and visit http://localhost:5173 to see the application.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/Give-Hope-org/give-hope-fn.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd give-hope-fn
+   ```
+4. Install the required packages:
+   ```bash
+   npm install
+   ```
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
+6. Open the project in your text editor and start coding!
+
+
 
 ## Testing
 
