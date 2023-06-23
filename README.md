@@ -2,13 +2,35 @@
 [![CI](https://github.com/Give-Hope-org/give-hope-fn/actions/workflows/intergrations.yml/badge.svg)](https://github.com/Give-Hope-org/give-hope-fn/actions/workflows/intergrations.yml)
 # Give-Hope
 GiveHope is an online donation platform that allows users to donate to various charities and causes around the world. Users can easily register and create a profile, browse through a list of charities and causes, and make secure donations through the platform. 
+A web application that allows people who want to help others financially do so easily through online giving
+
 ## Features
 
 - User authentication: Users can create an account, log in, and log out.
+- User profile: Users can create a profile with their personal information.
+- Donation: Users can make donations to charities and causes.
+- Search: Users can search for charities and causes.
+- Payment: Users can make payments using Stripe.
+- Responsive: The app is responsive and works on all screen sizes.
 
 
 ## Usage
+
 Get started by registering as an individual or organization. Give hope offers various donation causes like Climate, Education and Medical support, donation to charity organizations is also available. Under each category is a list of donation requests and description. You can either donate to a cause or charity organization or request for donation. 
+The application has been deployed at [https://give-hope-app.netlify.app
+](https://give-hope-app.netlify.app
+). You can use the following credentials to log in and test the app:
+```
+email: <EMAIL>
+password: password
+```
+
+You will be able to see how users are authenticated by logging into the dashboard of Netlify (the
+hosting platform) using the following credentials:
+```
+email: <EMAIL>
+password: password
+```
 
 ## Installation & Setup
 
@@ -38,7 +60,10 @@ To get started with the project, follow these steps:
 
 ## Testing
 
-To run the tests for the frontend, use the following command: `npm run test`
+To run the tests for the frontend, use the following command:
+```bash
+npm run test
+```
 
 ## Contributing
 
@@ -79,6 +104,15 @@ pull request.
 10. Once approved, merge your PR by clicking on 'Merge' button.
 11. Congratulations! You've made your contribution to this project.
 
+### Prerequisites
+Make sure that you meet the requirements listed here before proceeding further. If any
+of the requirements are not met, follow the instructions below to install the required
+software.
+- Node.js and npm
+- Git
+- A text editor of your choice (VS Code is recommended)
+- A web browser of your choice (Google Chrome is recommended)
+- A GitHub account (for hosting the code)
   
 
 ## Technologies Used
