@@ -5,10 +5,43 @@ GiveHope is an online donation platform that allows users to donate to various c
 ## Features
 
 - User authentication: Users can create an account, log in, and log out.
+- User profile: Users can create a profile with their personal information.
+- Donation: Users can make donations to charities and causes.
+- Search: Users can search for charities and causes.
+- Payment: Users can make payments using Stripe.
+- Responsive: The app is responsive and works on all screen sizes.
+
 
 
 ## Usage
+The application has been deployed at [https://give-hope-app.netlify.app
+](https://give-hope-app.netlify.app
+). You can use the following credentials to log in and test the app:
+```
+email: <EMAIL>
+password: password
+```
 
+You will be able to see how users are authenticated by logging into the dashboard of Netlify (the
+hosting platform) using the following credentials:
+```
+email: <EMAIL>
+password: password
+```
+
+If you want to try it locally without deploying anything online or if you would like to contribute
+to the project, follow the instructions below to set up the project locally.
+### Prerequisites
+Make sure that you meet the requirements listed here before proceeding further. If any
+of the requirements are not met, follow the instructions below to install the required
+software.
+- Node.js and npm
+- Git
+- A text editor of your choice (VS Code is recommended)
+- A web browser of your choice (Google Chrome is recommended)
+- A Stripe account (for testing payments)
+- A Netlify account (for hosting the app)
+- A GitHub account (for hosting the code)
 
 ## Installation & Setup
 
