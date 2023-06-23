@@ -29,19 +29,6 @@ email: <EMAIL>
 password: password
 ```
 
-If you want to try it locally without deploying anything online or if you would like to contribute
-to the project, follow the instructions below to set up the project locally.
-### Prerequisites
-Make sure that you meet the requirements listed here before proceeding further. If any
-of the requirements are not met, follow the instructions below to install the required
-software.
-- Node.js and npm
-- Git
-- A text editor of your choice (VS Code is recommended)
-- A web browser of your choice (Google Chrome is recommended)
-- A Stripe account (for testing payments)
-- A Netlify account (for hosting the app)
-- A GitHub account (for hosting the code)
 
 ## Installation & Setup
 
@@ -71,7 +58,10 @@ To get started with the project, follow these steps:
 
 ## Testing
 
-To run the tests for the frontend, use the following command: `npm run test`
+To run the tests for the frontend, use the following command:
+```bash
+npm run test
+```
 
 ## Contributing
 
@@ -112,6 +102,15 @@ pull request.
 10. Once approved, merge your PR by clicking on 'Merge' button.
 11. Congratulations! You've made your contribution to this project.
 
+### Prerequisites
+Make sure that you meet the requirements listed here before proceeding further. If any
+of the requirements are not met, follow the instructions below to install the required
+software.
+- Node.js and npm
+- Git
+- A text editor of your choice (VS Code is recommended)
+- A web browser of your choice (Google Chrome is recommended)
+- A GitHub account (for hosting the code)
   
 
 ## Technologies Used
