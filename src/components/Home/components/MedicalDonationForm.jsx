@@ -1,14 +1,14 @@
 import React from "react";
 import give from "../../../assets/give.svg";
-
+import "./MedicalDonationForm.css";
 
 function MedicalDonationForm() {
   return (
-    <div className="medical-donation-container bg-white flex h-[90vh] p-[4rem] mt-[5rem]">
+    <div className="medical-donation-container bg-white flex p-[4rem] mt-[5rem]">
       <div className="avatar">
         <img src={give} alt="Avatar Image" />
       </div>
-      <form className="medical-donation-form w-[90%] max-w-[500px] m-auto bg-white border-[10px]">
+      <form className="medical-donation-form w-[90%] max-w-[500px] bg-white">
         <div class="medical-form-group">
           <h2>Make a Donation!</h2>
           <div className="donation-type">

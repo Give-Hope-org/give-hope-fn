@@ -2,7 +2,24 @@
   --text-color: #333;
 }
 
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.organ-donation-container {
+  display: flex;
+  min-height: 90vh;
+  background-color: white;
+  padding: 4rem;
+  margin-top: 5rem;
+}
+
 .organ-donation-form {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   animation: slide-up 1s ease;
@@ -53,4 +70,64 @@
 .organ-donation-form select:focus {
   outline: none;
   border: 2px solid #6e6c6c;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    visibility: visible;
+    width: 100%;
+  }
+
+  .select-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 20px;
+  }
+
+  .select-grid label {
+    display: block;
+  }
+  
+  .select-grid select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7.406 10.781L12 15.375l4.594-4.594L18 12.188l-6 6-6-6z' fill='%23333'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 5%;
+  }
+
+  .avatar img {
+    visibility: hidden;
+  }
+  
+  .organ-donation-form {
+    max-width: 100%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .organ-donation-container {
+    padding: 2rem;
+  }
+  
+  .organ-donation-form {
+    max-width: 100%;
+    width: 100%;
+  }
 }

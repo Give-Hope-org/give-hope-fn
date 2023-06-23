@@ -6,7 +6,7 @@ import './OrganRequestForm.css';
 function OrganRequestForm() {
 
   return (
-    <div className="organ-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[2rem]">
+    <div className="organ-request-container">
       <div className="avatar flex align-center">
         <img src={spreadlove} alt="Avatar Image" className="w-[100%]"/>
       </div>

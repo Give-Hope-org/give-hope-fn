@@ -6,8 +6,8 @@ function BloodRequestForm() {
 
   return (
     <div className="blood-request-container">
-      <div className="avatar w-[100%]">
-        <img src={spreadlove} alt="Avatar Image"/>
+      <div className="avatar">
+        <img src={spreadlove} alt="Avatar"/>
       </div>
       <form className="blood-request-form rounded-[10px]">
         <div className="medical-form-heading text-center text-[28px] mb-[20px]">
