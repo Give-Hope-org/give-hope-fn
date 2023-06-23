@@ -31,12 +31,41 @@ To run the tests for the frontend, use the following command: `npm run test`
 
 Contributions are welcome! If you have any suggestions or find any bugs, please create an issue or follow these steps:
 
-1. Fork the repository.
-2. Create a new branch: git checkout -b feature-name.
-3. Make your changes and commit them: git commit -m "Your commit message".
-4. Push your changes to the branch: git push origin feature-name.
-5. Create a pull request.
-   Please make sure to follow the project's code style and conventions.
+Thank you for considering contributing to this project! Contributions are highly appreciated. Please follow the guidelines below to contribute:
+
+1. Fork the repository: Click on the "Fork" button on the repository's page to create a copy of the project in your GitHub account.
+
+2. Clone the forked repository: On your local machine, open a terminal and use the following command to clone the repository:
+   ```bash
+   git clone https://github.com/Give-Hope-org/give-hope-fn.git
+
+ 3. Navigate to the project directory: Use the ```bash ``` cd command to move into the project's directory:  
+   ```bash 
+   cd give-hope-fn
+   ```
+4. Create a new branch: Use the ```bash ``` git checkout command to create a new branch and switch to it:
+   ```bash
+   git checkout -b <new-branch-name>
+   ```
+5. Make changes: Make the changes you would like to contribute to the project.
+6. Commit changes: Use the ```bash ``` git commit command to commit the changes you have made:
+   ```bash
+   git commit -m "your commit message"
+   ```
+7. Push changes: Use the ```bash ``` git push command to push the changes to your remote repository:
+   ```bash
+   git push origin <your-branch-name>
+   ```
+8. Create a pull request: Navigate to your forked repository, and you will see a button to create a pull request. Click on the button and create a pull request to the main repository.
+8. Submit Pull Request (PR): Go back to GitHub and submit a pull request with detailed description
+9. Wait for code review and merge approval: Once you have submitted your pull request, a project maintainer will review your changes and either request changes or approve your pull request. Once approved, your pull request will be merged.
+of all your work done so far.
+9. Wait for review from our team members! We will get in touch soon after we receive your
+pull request.
+10. Once approved, merge your PR by clicking on 'Merge' button.
+11. Congratulations! You've made your contribution to this project.
+
+  
 
 ## Technologies Used
 
