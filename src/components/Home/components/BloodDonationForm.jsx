@@ -6,8 +6,8 @@ import './BloodDonationForm.css';
 function BloodDonationForm() {
 
   return (
-    <div className="blood-donation-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
-      <div className="avatar w-[100%]">
+    <div className="blood-donation-container">
+      <div className="avatar">
         <img src={love} alt="Avatar"/>
       </div>
       <form className="blood-donation-form rounded-[10px]">

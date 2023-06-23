@@ -5,9 +5,9 @@ import './FinanceRequestForm.css';
 function FinanceRequestForm() {
 
   return (
-    <div className="finance-request-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
-      <div className="avatar flex align-center">
-        <img src={spreadlove} alt="Avatar Image" className="w-[100%]"/>
+    <div className="finance-request-container">
+      <div className="avatar">
+        <img src={spreadlove} alt="Avatar Image"/>
       </div>
       <form className="finance-request-form w-[90%] max-w-[500px] m-auto bg-white rounded-[10px]">
         <div className="medical-form-heading text-center text-[28px] mb-[20px]">

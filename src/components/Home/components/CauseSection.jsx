@@ -47,8 +47,7 @@ function CauseSection() {
             <p>
               "Health is Wealth". Support medical organizations to help save a life today.
             </p>
-            <Link to="medical-
-            donation-form" className="donate-button">
+            <Link to="/medical-donation-form" className="donate-button">
               Donate Now
             </Link>
           </div>

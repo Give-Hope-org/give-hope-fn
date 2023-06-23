@@ -31,7 +31,7 @@ function BloodDonationProfile () {
         </Link>
       </div>
       <p className="text-[35px] font-bold text-center mt-[9rem] mb-[2rem]">Blood Donation Requests</p>
-      <div className="donation-requests grid grid-cols-3 gap-4 mt-5">
+      <div className="donation-requests">
         <div className="request-info">
           <div className="request-image mb-[10px]">
             <img src={Request} alt="requests"></img>

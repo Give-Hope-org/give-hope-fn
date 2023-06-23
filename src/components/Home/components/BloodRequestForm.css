@@ -99,25 +99,33 @@
   border: 2px solid #6e6c6c;
 }
 
-@media screen and (max-width: 768px) {
-  .blood-request-container {
-    flex-direction: column;
+@media screen and (min-width: 768px) {
+  .avatar {
+    visibility: visible;
     width: 100%;
-    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 5%;
+  }
+
+  .avatar img {
+    visibility: hidden;
   }
   
   .blood-request-form {
     max-width: 100%;
-    width: 100%;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .blood-request-container {
-    flex-direction: column;
-    padding: 1rem;
-    width: 100%;
+    padding: 2rem;
   }
+  
   .blood-request-form {
     max-width: 100%;
     width: 100%;

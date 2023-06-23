@@ -6,8 +6,8 @@ import './EquipmentDonationForm.css';
 function EquipmentDonationForm() {
 
   return (
-    <div className="equipment-donation-container bg-white grid grid-cols-2 min-h-[90vh] p-[4rem] mt-[5rem]">
-      <div className="avatar flex align-center">
+    <div className="equipment-donation-container">
+      <div className="avatar">
         <img src={love} alt="Avatar Image" className="w-[100%]"/>
       </div>
       <form className="equipment-donation-form w-[90%] max-w-[500px] m-auto bg-white rounded-[10px]">

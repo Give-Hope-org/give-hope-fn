@@ -22,9 +22,27 @@
   border-radius: 5px;
 }
 
+.donation-requests {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
 @media screen and (max-width: 640px) {
   .finance-donation-header img {
     max-width: 300px;
+  }
+
+  .medical-donate button {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .donation-requests {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 

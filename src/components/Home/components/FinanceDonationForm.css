@@ -2,6 +2,19 @@
   --text-color: #333;
 }
 
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.finance-donation-container {
+  display: flex;
+  min-height: 90vh;
+  background-color: white;
+  padding: 4rem;
+  margin-top: 5rem;
+}
+
 .finance-donation-form {
   padding: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
@@ -53,4 +66,37 @@
 .finance-donation-form select:focus {
   outline: none;
   border: 2px solid #6e6c6c;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .avatar {
+    width: 5%;
+  }
+
+  .avatar img {
+    visibility: hidden;
+  }
+  
+  .finance-donation-form {
+    max-width: 100%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .finance-donation-container {
+    padding: 2rem;
+  }
+  
+  .finance-donation-form {
+    max-width: 100%;
+    width: 100%;
+  }
 }
