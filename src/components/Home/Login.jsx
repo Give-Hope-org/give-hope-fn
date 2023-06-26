@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import log from "../../assets/log.svg";
+import log from "../../assets/LogIn.png";
 import { Link } from "react-router-dom";
 function Login() {
   return (
