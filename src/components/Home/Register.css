@@ -1,19 +1,22 @@
 /* Style for the register form */
 .register-container {
   display: flex;
-  min-height: 100vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40vh;
   background-color: white;
-  padding: 1rem;
+  margin-bottom: 5%;
+  justify-content: center;
 }
-
-.register-image img {
-  max-width: 90%;
-  height: auto;
+.register-image {
+  width: 60%;
 }
 
 .register-form {
-  max-width: 500px;
-  width: 90%;
+  margin-top: 10%;
+  max-width: 50vh;
+  width: 50%;
   background: #fff;
   border-radius: 10px;
   padding: 20px;
@@ -132,22 +135,50 @@
   }
 }
 
+/* mobile phone */
 @media screen and (max-width: 768px) {
   .register-container {
     flex-direction: column;
+    margin-top: 20%;
   }
   .register-form {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 5%;
+  }
+  .register-image {
+    display: none;
   }
 }
 
 @media screen and (max-width: 480px) {
   .register-container {
     flex-direction: column;
+    margin-top: 30%;
   }
   .register-form {
     max-width: 100%;
     width: 100%;
+    margin-bottom: 5%;
+  }
+  .register-image {
+    display: none;
+  }
+}
+/* mobile phone */
+
+/* tablet and landscape for phones  */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .register-image {
+    display: none;
+  }
+  .register-container {
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  .register-form {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 5%;
   }
 }
