@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Login() {
   return (
     <div>
-      <div className="login-container">
-        <div className="login-image">
+      <div className="login-container flex mt-10 ">
+        <div className="login-image w-1/2">
           <img src={log} />
         </div>
-        <div className="login-form">
+        <div className="login-form w-1/2">
           <h2>Login</h2>
           <form>
             <div className="form-group">
