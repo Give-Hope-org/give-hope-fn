@@ -1,7 +1,6 @@
 import React from "react";
 import help from "../../assets/help.jpg";
 import "./AboutUs.css";
-import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
@@ -9,7 +8,7 @@ function AboutUs() {
       <section id="about" className="section">
         <div className="about-container">
           <header className="about-section-header">
-            <h2 className="about-section-title">About Us</h2>
+            <h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
             <p className="about-section-tagline">Everything about us</p>
           </header>
           <div className="about-section-body">
@@ -43,11 +42,6 @@ function AboutUs() {
                   committed to transparency and accountability in all that we
                   do!
                 </p>
-                <div className="about-section-footer">
-                  <Link to="/about-us">
-                    <button className="hero-butto">Learn More</button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

@@ -25,6 +25,7 @@ import MedicalProfile from "./pages/MedicalProfilePage";
 import Dashboard from "./components/Dashboard/Dashboard";
 import RegisterAsOrg from'./pages/RegisterAsOrg'
 import ScrollToTop from './components/Dashboard/components/ScrollToTop'
+import DonationRequestPage from './pages/DonationRequestPage'
 function App() {
   return (
     <div> 
@@ -48,6 +49,7 @@ function App() {
           <Route path="equipment-description" element={<EquipmentDonationProfilePage />} />
           <Route path="financial-description" element={<FinanceDonationProfilePage />} />
           <Route path="login" element={<LoginPage />} />
+          <Route path="donation-request" element={<DonationRequestPage />} />
           <Route path="register-as-org" element={<RegisterAsOrg />} />
           <Route path="register-as-individual" element={<RegisterPage />} />
           <Route path="forgot-password" element={<ForgotPasswordPage />} />

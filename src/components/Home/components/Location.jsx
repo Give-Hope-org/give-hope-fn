@@ -5,7 +5,7 @@ import "./Location.css"
 function Location() {
   return (
     <div className='lacationContainer'>
-       <h1>Donate Anywhere</h1>
+       <h1 className='text-3xl font-bold text-center mb-8'>Donate Anywhere</h1>
     <p>
         GiveHope enables you to make donations from anywhere, anytime.
         Whether you're at home, in the office, or on the go, supporting our cause has never been easier.

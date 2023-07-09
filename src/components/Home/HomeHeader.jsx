@@ -60,7 +60,7 @@ function HomeHeader() {
         </li>
         <li>
           <a href="#causes" onClick={handleMobileMenuToggle}>
-            Causes
+          Explore
           </a>
         </li>
         <li>

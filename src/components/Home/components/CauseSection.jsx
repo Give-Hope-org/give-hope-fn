@@ -9,7 +9,7 @@ function CauseSection() {
   return (
     <section className="popular-causes" id="couses">
       <div className="container">
-        <h2>Popular Causes</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Popular Causes</h2>
         <p>
           Check out some of our most popular causes and join the fight for a
           better world today.

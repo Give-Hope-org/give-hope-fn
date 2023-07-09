@@ -13,7 +13,7 @@ function CharitySection() {
     {
       name: "Kigali Genocide Memorial",
       description:
-        "The Kigali Genocide Memorial's mission is to provide a dignified burial place for victims of the 1994 genocide in Rwanda and to educate visitors on the causes and consequences of genocide.",
+        "The Kigali Genocide Memorial's mission is to provide a dignified burial place for victims of the 1994 genocide in Rwanda.",
       image: charity2,
     },
     {
@@ -25,25 +25,25 @@ function CharitySection() {
     {
       name: "The Nigerian Red Cross Society",
       description:
-        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts and other emergencies.",
+        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts.",
       image: charity3,
     },
     {
       name: "The Nigerian Red Cross Society",
       description:
-        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts and other emergencies.",
+        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts.",
       image: charity3,
     },
     {
       name: "The Nigerian Red Cross Society",
       description:
-        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts and other emergencies.",
+        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts.",
       image: charity3,
     },
     {
       name: "The Nigerian Red Cross Society",
       description:
-        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts and other emergencies.",
+        "To prevent and alleviate human suffering, protect life and health, and uphold human dignity especially during armed conflicts.",
       image: charity3,
     },
   ];
@@ -62,7 +62,7 @@ function CharitySection() {
     };
   }, []);
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,

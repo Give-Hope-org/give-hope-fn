@@ -14,7 +14,7 @@ const Hero = () => {
     {
       title: "Request for Support!",
       quote: "Your dreams deserve a chance. Apply for our donation program today",
-      button: "Request",
+      button: "Create a Request",
     },
   ];
 
@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="hero-text-container">
           <h1 className="hero-title">{currentSlideContent.title}</h1>
           <p className="hero-quote">{currentSlideContent.quote}</p>
-          <Link to="/donation-form" className="hero-button w">
+          <Link to="/donation-request" className="hero-button ">
             {currentSlideContent.button}
           </Link>
         </div>

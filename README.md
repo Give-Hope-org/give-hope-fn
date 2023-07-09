@@ -126,3 +126,29 @@ https://give-hope-fn.vercel.app/
 ### Screenshots
 
 ![Landing page](https://github.com/Give-Hope-org/give-hope-fn/blob/main/src/assets/heroSection.png)
+#### How should this be manually tested?
+```
+git clone https://github.com/atlp-rwanda/ecommerce-app-predators-fe.git
+cd ecommerce-app-predators-fe
+git checkout branch-?
+npm i
+npm run dev
+```
+
+#### How should this be manually tested?
+
+```bash 
+  git clone https://github.com/atlp-rwanda/ecommerce-app-predators-fe.git
+   ```
+   ```bash
+   cd ecommerce-app-predators-fe
+   ```
+   ```bash
+   git checkout branch-?
+   ```
+   ```bash
+   npm i
+   ```
+   ```bash
+   npm run dev
+   ```
