@@ -56,6 +56,23 @@ To get started with the project, follow these steps:
    ```
 6. Open the project in your text editor and start coding!
 
+#### How should this be manually tested?
+
+```bash 
+  git clone https://github.com/atlp-rwanda/ecommerce-app-predators-fe.git
+   ```
+   ```bash
+   cd ecommerce-app-predators-fe
+   ```
+   ```bash
+   git checkout branch-?
+   ```
+   ```bash
+   npm i
+   ```
+   ```bash
+   npm run dev
+   ```
 
 
 ## Testing
@@ -122,33 +139,10 @@ React
 Tailwind CSS
 Plain Css
 ## DEMO LINK:
-https://give-hope-fn.vercel.app/
+https://give-hope-f.vercel.app/
 ### Screenshots
 
 ![Landing page](https://github.com/Give-Hope-org/give-hope-fn/blob/main/src/assets/heroSection.png)
-#### How should this be manually tested?
-```
-git clone https://github.com/atlp-rwanda/ecommerce-app-predators-fe.git
-cd ecommerce-app-predators-fe
-git checkout branch-?
-npm i
-npm run dev
-```
 
-#### How should this be manually tested?
 
-```bash 
-  git clone https://github.com/atlp-rwanda/ecommerce-app-predators-fe.git
-   ```
-   ```bash
-   cd ecommerce-app-predators-fe
-   ```
-   ```bash
-   git checkout branch-?
-   ```
-   ```bash
-   npm i
-   ```
-   ```bash
-   npm run dev
-   ```
+
