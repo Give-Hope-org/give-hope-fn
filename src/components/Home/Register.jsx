@@ -1,12 +1,13 @@
 import React from "react";
 import "./Register.css";
-import gift from "../../assets/gift.svg";
+import signUp from "../../assets/signUp.png";
 import { Link } from "react-router-dom";
+
 function Register() {
   return (
     <div className="register-container">
       <div className="register-image">
-        <img src={gift} />
+        <img src={signUp} />
       </div>
       <div className="register-form">
         <Link
